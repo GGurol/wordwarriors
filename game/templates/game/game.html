@@ -1,0 +1,83 @@
+{% extends "game/layout.html" %} {% load static %} {% block body %}
+
+<header>
+  <h2>Level {{level}}</h2>
+</header>
+
+<main>
+  {% comment %} guess result popup message {% endcomment %}
+  <div class="dark-bg" id="dark-bg"></div>
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <button class="close-message">x</button>
+      <p class="guess-message"></p>
+    </div>
+  </div>
+
+  <div class="game-container">
+    <div class="game-status">
+      <div class="status-group">
+        <img src="{% static "game/icons/hearts.png" %}" > <span>{{life}}</span>
+      </div>
+      <div class="status-group">
+        <img src="{% static "game/icons/spades.png" %}" > <span>{{score}}</span>
+      </div>
+    </div>
+    <div class="level-contents">
+      <div class="content-titles">
+        <div class="content-title">
+          <img src="{% static "game/icons/text.png" %}" >
+          <h3>Word</h3>
+        </div>
+        <div class="content-title">
+          <img src="{% static "game/icons/idea.png" %}" >
+          <h3>Hint</h3>
+        </div>
+        <div class="content-title">
+          <img src="{% static "game/icons/puzzle.png" %}" >
+          <h3>Category</h3>
+        </div>
+      </div>
+      <hr />
+      <div class="content-desc">
+        <div class="level-content">{{char}}</div>
+        <div class="level-content">{{hint}}</div>
+        <div class="level-content">{{category}}</div>
+      </div>
+      <div class="guess-validation"></div>
+      {% comment %} Guess Section {% endcomment %}
+      <div
+        class="guess-container"
+        data-game-id="{{game_id}}"
+        data-level="{{level}}"
+      >
+        {% csrf_token %}
+        <div class="input-guess">
+          <div class="guesses">
+            <label for="type">Guess Type: </label>
+            <select id="type" name="type">
+              <option value="" selected disabled>Choose One</option>
+              <option value="letter">Letter</option>
+              <option value="word">Full Word</option>
+            </select>
+          </div>
+          <div class="guesses">
+            <label for="guess">Your Guess: </label>
+            <input
+              id="guess"
+              name="guess"
+              type="text"
+              placeholder="Enter your guess"
+            />
+          </div>
+        </div>
+        <button class="submit-guess">
+          <span>Guess</span> <img src="{% static "game/icons/guess.png" %}"
+          alt="guess">
+        </button>
+      </div>
+    </div>
+  </div>
+</main>
+
+{% endblock %}

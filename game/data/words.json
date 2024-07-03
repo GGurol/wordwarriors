@@ -1,0 +1,242 @@
+[
+  {
+    "word": "Economics",
+    "category": "Social Sciences",
+    "hint": "The study of how societies allocate scarce resources to satisfy unlimited wants."
+  },
+  {
+    "word": "Mitochondria",
+    "category": "Biology",
+    "hint": "Known as the powerhouse of the cell, this organelle produces ATP through cellular respiration."
+  },
+  {
+    "word": "Inflation",
+    "category": "Economics",
+    "hint": "The rate at which the general level of prices for goods and services is rising."
+  },
+  {
+    "word": "Quadratic",
+    "category": "Mathematics",
+    "hint": "A polynomial equation of the second degree, involving a variable raised to the power of 2."
+  },
+  {
+    "word": "Democracy",
+    "category": "Politics",
+    "hint": "A system of government by the whole population or all the eligible members of a state, typically through elected representatives."
+  },
+  {
+    "word": "Photosynthesis",
+    "category": "Biology",
+    "hint": "The process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll."
+  },
+  {
+    "word": "Recession",
+    "category": "Economics",
+    "hint": "A significant decline in economic activity spread across the economy, lasting more than a few months."
+  },
+  {
+    "word": "Hypotenuse",
+    "category": "Mathematics",
+    "hint": "The longest side of a right-angled triangle, opposite the right angle."
+  },
+  {
+    "word": "Mitosis",
+    "category": "Biology",
+    "hint": "A type of cell division that results in two daughter cells each having the same number and kind of chromosomes as the parent nucleus."
+  },
+  {
+    "word": "Osmosis",
+    "category": "Biology",
+    "hint": "The process of solvent movement through a semi-permeable membrane."
+  },
+  {
+    "word": "Entropy",
+    "category": "Physics",
+    "hint": "A measure of disorder or randomness in a system."
+  },
+  {
+    "word": "Sovereignty",
+    "category": "Politics",
+    "hint": "Supreme power or authority over a territory."
+  },
+  {
+    "word": "Differentiation",
+    "category": "Mathematics",
+    "hint": "A process to find the rate of change of a function."
+  },
+  {
+    "word": "Urbanization",
+    "category": "Geography",
+    "hint": "The increase in population in cities and towns versus rural areas."
+  },
+  {
+    "word": "Neuron",
+    "category": "Biology",
+    "hint": "A specialized cell transmitting nerve impulses."
+  },
+  {
+    "word": "Antibody",
+    "category": "Biology",
+    "hint": "A blood protein produced in response to counteracting a specific antigen."
+  },
+  {
+    "word": "Microeconomics",
+    "category": "Economics",
+    "hint": "The study of individual consumers and businesses."
+  },
+  {
+    "word": "Biodiversity",
+    "category": "Environmental Science",
+    "hint": "The variety of life in a particular habitat or ecosystem."
+  },
+  {
+    "word": "Ecosystem",
+    "category": "Biology",
+    "hint": "A biological community of interacting organisms and their physical environment."
+  },
+  {
+    "word": "Cybersecurity",
+    "category": "Computer Science",
+    "hint": "The practice of protecting systems and networks from digital attacks."
+  },
+  {
+    "word": "Monarchy",
+    "category": "Politics",
+    "hint": "A form of government with a royal family member at the head."
+  },
+  {
+    "word": "Catalyst",
+    "category": "Chemistry",
+    "hint": "Speeds up reactions without being consumed."
+  },
+  {
+    "word": "Genome",
+    "category": "Genetics",
+    "hint": "The complete set of an organism's DNA."
+  },
+  {
+    "word": "Velocity",
+    "category": "Physics",
+    "hint": "Speed with a directional component."
+  },
+  {
+    "word": "Gerrymander",
+    "category": "Politics",
+    "hint": "Manipulate boundaries for electoral advantage."
+  },
+  {
+    "word": "Isotope",
+    "category": "Chemistry",
+    "hint": "Atoms with the same number of protons but different neutrons."
+  },
+  {
+    "word": "Antigen",
+    "category": "Immunology",
+    "hint": "Substance that triggers an immune response."
+  },
+  {
+    "word": "Algorithm",
+    "category": "Computer Science",
+    "hint": "A step-by-step procedure for calculations."
+  },
+  {
+    "word": "Erosion",
+    "category": "Geology",
+    "hint": "The gradual destruction of landforms."
+  },
+  {
+    "word": "Hemoglobin",
+    "category": "Biology",
+    "hint": "Protein in red blood cells carrying oxygen."
+  },
+  {
+    "word": "Neutron",
+    "category": "Physics",
+    "hint": "A subatomic particle with no charge."
+  },
+  {
+    "word": "Voltage",
+    "category": "Physics",
+    "hint": "Electrical potential difference."
+  },
+  {
+    "word": "Polymer",
+    "category": "Chemistry",
+    "hint": "Large molecule composed of repeated subunits."
+  },
+  {
+    "word": "Ephemeral",
+    "category": "Literature",
+    "hint": "Lasting for a very short time."
+  },
+  {
+    "word": "Quasar",
+    "category": "Astronomy",
+    "hint": "A very luminous and distant active galactic nucleus."
+  },
+  {
+    "word": "Axiom",
+    "category": "Mathematics",
+    "hint": "A statement accepted as true without proof."
+  },
+  {
+    "word": "Chromosome",
+    "category": "Genetics",
+    "hint": "Thread-like structure of nucleic acids carrying genetic information."
+  },
+  {
+    "word": "Tundra",
+    "category": "Geography",
+    "hint": "A treeless plain found in Arctic regions."
+  },
+  {
+    "word": "Quarantine",
+    "category": "Medicine",
+    "hint": "Isolation to prevent the spread of disease."
+  },
+  {
+    "word": "Cognition",
+    "category": "Psychology",
+    "hint": "The mental action of acquiring knowledge."
+  },
+  {
+    "word": "Sublimation",
+    "category": "Physics",
+    "hint": "Transition from solid to gas without passing through liquid."
+  },
+  {
+    "word": "Anthropology",
+    "category": "Social Sciences",
+    "hint": "The study of humans and their societies."
+  },
+  {
+    "word": "Nebula",
+    "category": "Astronomy",
+    "hint": "A cloud of gas and dust in space."
+  },
+  {
+    "word": "Photosphere",
+    "category": "Astronomy",
+    "hint": "The luminous envelope of a star."
+  },
+  {
+    "word": "Alloy",
+    "category": "Chemistry",
+    "hint": "A mixture of metals."
+  },
+  {
+    "word": "Syntax",
+    "category": "Linguistics",
+    "hint": "The arrangement of words to form sentences."
+  },
+  {
+    "word": "Mutation",
+    "category": "Genetics",
+    "hint": "Change in a DNA sequence."
+  },
+  {
+    "word": "Phoneme",
+    "category": "Linguistics",
+    "hint": "A distinct unit of sound in a specified language."
+  }
+]

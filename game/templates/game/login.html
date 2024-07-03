@@ -1,0 +1,42 @@
+{% extends "game/index.html" %} {% block core %}
+
+<div class="form-container">
+  <form method="post" class="sign-form" action="{% url 'login' %}">
+    {% csrf_token %}
+    <h2>LOGIN</h2>
+    <div class="form-group">
+      <div class="form-item">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your username..."
+          required
+        />
+        {% if message %}
+        <div class="sign-message">{{ message }}</div>
+        {% endif %}
+      </div>
+      <div class="form-item">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password..."
+          required
+        />
+      </div>
+    </div>
+    <button type="submit" class="sign-button">Login</button>
+    <div class="prompt-sign">
+      <p>
+        Doesn't have an account?
+        <a href="{% url 'register' %}">Register here</a>
+      </p>
+    </div>
+  </form>
+</div>
+
+{% endblock %}

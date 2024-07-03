@@ -1,0 +1,17 @@
+{% extends "game/layout.html" %} {% block body %}
+
+<header>
+  <h1 class="game-logo">WORD WARRIORS</h1>
+</header>
+
+<main>
+  {% block core %}
+  <div class="menus">
+    <a href="{% url 'game' new=1 %}">Start New Game</a>
+    <a href="{% url 'game' new=0 %}">Load Game</a>
+    <a href="{% url 'profile' %}">Profile</a>
+  </div>
+  {% endblock %}
+</main>
+
+{% endblock %}

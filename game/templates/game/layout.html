@@ -1,0 +1,64 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
+
+    {% comment %} Charts {% endcomment %}
+    <script type="text/javascript" src="{% static 'game/chart.js' %}"></script>
+
+    {% comment %} CSS {% endcomment %}
+    <link href="{% static 'game/styles.css' %}" rel="stylesheet" />
+
+    {% comment %} Fonts {% endcomment %}
+    <link
+      href="https://fonts.cdnfonts.com/css/academy-engraved-let"
+      rel="stylesheet"
+    />
+
+    {% comment %} icons {% endcomment %}
+    <script
+      src="https://kit.fontawesome.com/ba0aefa485.js"
+      crossorigin="anonymous"
+    ></script>
+
+    {% comment %} JavaScript {% endcomment %}
+    <script src="{% static 'game/app.js' %}"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>Hangman Game</title>
+  </head>
+  <body>
+    {% block body %} {% endblock %}
+    <button id="logout-button">
+      <a href="{% url 'logout' %}">
+        <img src="{% static "game/icons/out.png" %}" >
+      </a>
+    </button>
+    <div class="user-name">User: {{user}}</div>
+    <button class="global-button">
+      <a href="{% url 'profile' %}">
+        <img src="{% static "game/icons/user.png" %}" >
+      </a>
+    </button>
+    <button class="global-button" id="home-button">
+      <a href="/">
+        <img src="{% static "game/icons/home.png" %}" >
+      </a>
+    </button>
+    <footer>
+      <p class="game-copyrights">
+        &copy; 2024 Word Warriors. All Rights Reserved
+      </p>
+    </footer>
+  </body>
+</html>
