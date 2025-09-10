@@ -1,7 +1,5 @@
 # WordWarriors
 
-#### Video Demo: https://youtu.be/QIUvO4jXNMo
-
 #### Description:
 
 WordWarriors (or hangman) is a web-based gaming application designed to help high school graduates prepare their vocabularies for university or college. The game starts by asking users to log in or register. After logging in, users are taken to the main menu, where they can start a new game, load a game, or view their profile.
@@ -34,25 +32,49 @@ WordWarriors is built using Django for the full stack and backend, with HTML, CS
   - **Load Game:** Resume the last game session.
   - **Profile:** View personal information and performance statistics.
 
-### Project Structure:
 
-- **Django:** Full stack and backend functionality.
-- **HTML, CSS, JavaScript:** Front-end design and interactivity.
+## Project Base:
 
-### Requirements:
+Framework : Django 5.2
 
-- Python 3.x
-- Django
-- HTML, CSS, JavaScript
+Database : SQLite
 
-### How to Run:
 
-1. Clone the repository to your local machine.
-2. Navigate to the project directory.
-3. Run `python manage.py runserver` to start the application.
-4. Open a web browser and go to `http://localhost:8000` to access the application.
+### Installation
 
-### Contributors:
+Follow these steps to set up and run the Django Poll Application:
 
-- Ratanak Panha Duong
-  - username: panhadng
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/GGurol/wordwarriors.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd wordwarriors
+   ```
+
+3. Build the docker and build:
+
+   ```bash
+   docker compose up --build -d
+   ```
+
+4. Apply database migrations:
+
+   ```bash
+   docker compose exec web python manage.py makemigrations
+   docker compose exec web python manage.py migrate
+   ```
+
+5. Create a superuser to access the admin interface:
+
+   ```bash
+   docker compose exec web python manage.py createsuperuser
+   ```
+
+
+6. Now, : http://localhost:8000 register and play the game.
+
